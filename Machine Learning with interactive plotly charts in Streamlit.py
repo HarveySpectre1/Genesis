@@ -86,5 +86,6 @@ x1 = X_projected[:,0]
 x2 = X_projected[:,1]
 
 # Plotly plot
+
 fig = px.scatter(x1,x2,template= 'ggplot2', )
 st.write(fig)
