@@ -65,7 +65,7 @@ plt.legend(['Orig','Val','Pred'])
 # visualising linear regression model
 valid = df1[X.shape[0]:]
 valid['Predictions'] = lr_pred
-
+ 
 plt.figure(figsize=(16,6))
 # plt.title('Linear Regression Model')
 plt.xlabel('Days')
@@ -74,4 +74,4 @@ plt.plot(df1['Adj Close'])
 plt.plot(valid[['Adj Close','Predictions']])
 plt.legend(['Orig','Val','Pred'])
 
-# Conclusion: Descison Tree Regressor Model works better than Linear regression Model
+# Conclusion: Descison Tree Regressor Model works better than Linear regression Model 
